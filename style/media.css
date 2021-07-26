@@ -1,0 +1,229 @@
+@media(max-width:1680px) {
+    .main__content-cards {
+        grid-template-columns: repeat(3, max-content);
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+}
+
+@media(max-width:1255px) {
+    .main__content-cards {
+        grid-template-columns: repeat(2, max-content);
+        grid-template-rows: repeat(3, 1fr)
+    }
+
+}
+
+@media(max-width:920px) {
+    .title {
+        font-size: 55px;
+    }
+
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .header__content-description {
+        font-size: 14px;
+        line-height: 21px;
+        width: 80%;
+    }
+
+    .header__content-prise {
+        padding: 25px 44px;
+
+    }
+
+    .prise {
+        font-size: 45px;
+    }
+
+    .main__content-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       gap: 0;
+    }
+    .main__content-card{
+        margin: 10px 15px;
+    }
+
+
+}
+
+@media(max-width:830px) {
+    .header__content-description {
+        float: left;
+        margin-right: 0;
+    }
+
+    .header__content-buttons {
+        flex-direction: column;
+
+    }
+
+    .header__content-description {
+        width: 50%;
+    }
+
+    .header__content-look {
+        margin-top: 15px;
+        width: 55%;
+    }
+
+    .header__content-prise {
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:920px) {
+
+    .header__content-buttons {
+        margin: 0;
+        align-items: flex-end;
+    }
+
+    .subtitle {
+        display: inline-block;
+        margin: 0;
+        margin: 15px;
+    }
+
+    .header__content-prise {
+        padding: 12px 8px;
+
+    }
+
+    .prise {
+        font-size: 30px;
+    }
+
+
+}
+
+@media(max-width:725px) {
+    .header__nav-content {
+        flex-direction: column;
+    }
+
+    .logo {
+        margin-top: 20px;
+    }
+
+    .footer__title {
+        font-size: 40px;
+    }
+}
+
+@media(max-width:628px) {
+    .header__content-description {
+        font-size: 13px;
+        line-height: 16px;
+        width: 70%;
+    }
+
+    .title {
+        font-size: 35px;
+
+    }
+
+    .subtitle {
+        display: block;
+        float: none;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .header__content-look {
+        width: 75%;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:570px) {
+    .title {
+        display: inline;
+    }
+
+    .header__content-buttons{
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .header__content-prise {
+        margin: 0;
+        border-radius: 50%;
+        margin-bottom: 15px;
+        padding: 21px 10px;
+        margin-right: 30px;
+    }
+    .prise{
+        font-size: 8px;
+        font-size: 20px;
+    }
+
+    .header__content-look {
+        margin: 0;
+        font-size: 12px;
+        line-height: 7px;
+        width: 30%;
+    }
+    .header__content-description{
+        display: none;
+    }
+}
+
+@media(max-width:520px){
+    
+    .prenav-links{
+        flex-direction: column;
+        
+    }
+    .prenav__block{
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .header__nav-links{
+        /* display: grid;
+        grid-template-rows: repeat(2/1fr);
+        grid-template-columns: repeat(3,max-content); */
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__content-box{
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+    .logo-bottom{
+        margin-bottom: 25px;
+    }
+    .main__prenav-links{
+        flex-direction: column;
+    }
+    .main__prenav-link{
+        text-align: center;
+        display: block;
+        border-bottom: 1px solid black;
+    }
+}
+@media(max-width:440px){
+    .title{
+        line-height: 60px;
+        font-size: 28px;
+
+    }
+    .subtitle{
+        text-align: right;
+        font-size:  22px; ;
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+    .header__content-prise{
+        margin: 0;
+        padding: 13px 5px;
+        font-size: 18px;
+    }
+}
